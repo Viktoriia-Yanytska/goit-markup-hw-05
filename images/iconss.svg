@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path fill="#e7e9fc" d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z" style="fill:var(--color1, #e7e9fc)"/>
+      <path fill="none" stroke="#000" stroke-width="1.333" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333S.667 24.468.667 16 7.532.667 16 .667 31.333 7.532 31.333 16z" style="stroke:var(--color2, #000)"/>
+      <path fill="#2e2f42" d="m21.333 11.741-1.074-1.074L16 14.926l-4.259-4.259-1.074 1.074L14.926 16l-4.259 4.259 1.074 1.074L16 17.074l4.259 4.259 1.074-1.074L17.074 16l4.259-4.259z" style="fill:var(--color3, #2e2f42)"/>
+    </symbol>
+  </defs>
+</svg>
