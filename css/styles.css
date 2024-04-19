@@ -643,9 +643,7 @@ width: 100%;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.input-class:focus {
-    border-color: #4D5AE5;
-}
+
 
 .svg-icon {
     position: absolute;
@@ -655,7 +653,7 @@ width: 100%;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-icon:focus {
+.input-class:focus .svg-icon {
     fill: #4D5AE5;
 }
 
@@ -688,6 +686,8 @@ width: 100%;
     margin-bottom: 24px;
 }
 
+
+
 .label-user-privacy {
     font-size: 12px;
     line-height: 1.17;
@@ -696,22 +696,27 @@ width: 100%;
 }
 
 .span-user-privacy {
+    cursor: pointer;
     width: 16px; 
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 8px;
     display: inline-flex; 
     align-items: center; 
     justify-content: center; 
     fill: transparent; 
 }
 
-.chekbox-input :checked .span-user-privacy {
+.chekbox-input:checked +.label-user-privacy > .span-user-privacy {
     background-color:  #404bbf; 
     border: none;
     fill: #F4F4FD; 
 }
+
+     
+
 
 .a-privacy-policy {
     color: #4d5ae5; 
