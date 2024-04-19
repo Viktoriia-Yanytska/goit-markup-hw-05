@@ -643,13 +643,12 @@ width: 100%;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.input-class:focus {
-    border-color: #4D5AE5;
-}
-
 .input-class:focus .svg-icon {
+    border-color: #4D5AE5;
     fill: #4D5AE5;
 }
+
+
 
 .svg-icon {
     position: absolute;
